@@ -1,4 +1,4 @@
-Various implementation and help scripts for working with the Tibber GraphQL API
+# Various implementation and helper scripts for working with the Tibber GraphQL API
 
 - `tibber.sh`: Dead simple curl client to test your access token and get access to your home ID.
   - Just change access token
