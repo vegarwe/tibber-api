@@ -18,4 +18,5 @@ Resources:
 - https://www.google.com/search?q=%C3%A5pne+HAN-porten
 - https://developer.tibber.com/
 - https://github.com/Danielhiversen/pyTibber
+- https://github.com/graphql/graphiql
 

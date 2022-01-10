@@ -16,7 +16,7 @@ AUTH_HEADER     = {'Authorization': f"Bearer {AUTH_TOKEN}"}
 
 MQTT_HOST       = 'localhost'
 MQTT_PORT       = 1883
-MQTT_USER       = 'anonumous'
+MQTT_USER       = 'anonymous'
 MQTT_PASS       = 'userpassword...'
 MQTTCACRT       = None # '/home/vegarwe/devel/amqp_testing/mosquitto_keys/ca.crt'
 
