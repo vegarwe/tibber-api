@@ -6,15 +6,15 @@
   - `pip3 install python_graphql_client aio-mqtt`
 
 
-Interesting topics to delve into:
-- Tibber API specifically
-- GraphQL in general
-- Websockets and streaming data (continoulsy and over time)
-- Async IO and Python (specifically how to handle exceptions in async tasks)
+### Interesting topics to delve into:
+- **Tibber API** specifically
+- **GraphQL** in general
+- **Websockets and streaming data** (continoulsy and over time)
+- **Async IO** and Python (specifically how to _handle exceptions in async tasks_)
 - ...
 
 
-Resources:
+### Resources:
 - https://www.google.com/search?q=%C3%A5pne+HAN-porten
 - https://developer.tibber.com/
 - https://github.com/Danielhiversen/pyTibber
