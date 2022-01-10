@@ -110,7 +110,8 @@ class TibberMqtt:
                     ssl_context.check_hostname = False
                     #ssl_context.load_cert_chain(MQTTCACRT)
                     ssl_context.load_verify_locations(cafile=MQTTCACRT)
-                connect_result = await self._client.connect( MQTT_HOST, port=MQTT_PORT, ssl=ssl_context, username=MQTT_USER, password=MQTT_PASS)
+                connect_result = await self._client.connect(
+                        MQTT_HOST, port=MQTT_PORT, ssl=ssl_context, username=MQTT_USER, password=MQTT_PASS)
                 logging.info("Connected")
 
                 #await self._client.subscribe(('in', aio_mqtt.QOSLevel.QOS_1))
